@@ -42,15 +42,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/doraemon890/ANNIE-X-MUSIC-",
+    "https://github.com/ZXCVBNMASDFGHJKLQWERTYUIOP0786/LuckyX-Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/JARVIS_X_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CHATTING_2024")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LuckyXUpdate")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LuckyXSupport")
 
 
 # Maximum Limit Allowed for users to save playlists on bot's server
@@ -87,8 +87,8 @@ STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 AMBOT = [
-    "💞", "🦋", "🔍", "🧪", "🦋", "⚡️", "🔥", "🦋", "🎩", "🌈", "🍷", "🥂", "🦋", "🥃", "🥤", "🕊️", 
-    "🦋", "🦋", "🕊️", "🦋", "🕊️", "🦋", "🦋", "🦋", "🪄", "💌", "🦋", "🦋", "🧨"
+    "💞", "🦋", "🔍", "🧪", "❤️", "⚡️", "🔥", "💔", "🎩", "🌈", "🍷", "🥂", "❣️", "🥃", "🥤", "🕊️", 
+    "🥀", "🌹", "❤️‍🔥", "💖", "💗", "💝", "💘", "💥", "🪄", "💌", "❤️‍🩹", "💕", "🧨"
 ]
 
 AMOP = ["ʜᴇʟʟᴏ {0}, 🥀\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n🫧 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🪽 ➪ [🇯𝗔𝗥𝗩𝗜𝗦💗](https://t.me/JARVIS_V2)""",
