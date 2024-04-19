@@ -19,14 +19,14 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "LuckyXMusic_Bot")
 BOT_NAME = getenv("BOT_NAME" , "˹𝐋𝚞𝚌𝚔𝚢🅧𝐌𝚞𝚜𝚒𝚌˼")
 #get Your Assistant User name without @ 
 ASSUSERNAME = getenv("ASSUSERNAME" , "LuckyXMusic")
-EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
+EVALOP = list(map(int, getenv("EVALOP", "5993654715").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002059718978))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001764180763))
 
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
