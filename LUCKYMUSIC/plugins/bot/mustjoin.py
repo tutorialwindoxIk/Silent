@@ -6,7 +6,7 @@ from LUCKYMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "JARVIS_X_SUPPORT"
+MUST_JOIN = "LuckyXSupport"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
