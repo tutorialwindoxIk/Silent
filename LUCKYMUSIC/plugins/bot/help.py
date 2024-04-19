@@ -4,7 +4,7 @@ from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from LUCKYMUSIC import app
-from LUCKYMUSIC.utils import first_page, second_page, third_page
+from LUCKYMUSIC.utils import first_page, second_page
 from LUCKYMUSIC.utils.database import get_lang
 from LUCKYMUSIC.utils.decorators.language import LanguageStart, languageCB
 from LUCKYMUSIC.utils.inline.help import help_back_markup, private_help_panel
@@ -120,7 +120,7 @@ async def helper_cb(client, CallbackQuery, _):
         await CallbackQuery.edit_message_text(helpers.HELP_30, reply_markup=keyboard)
 
 
-@app.on_callback_query(filters.regex("AYUSHI") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("LUCKY") & ~BANNED_USERS)
 @languageCB
 async def first_pagexx(client, CallbackQuery, _):
     menu_next = second_page(_)
@@ -130,14 +130,5 @@ async def first_pagexx(client, CallbackQuery, _):
     except:
         return
 
-@app.on_callback_query(filters.regex("AYU") & ~BANNED_USERS)
-@languageCB
-async def second_pagexx(client, CallbackQuery, _):
-    menu_next = third_page(_)
-    try:
-        await CallbackQuery.message.edit_text(_["help_1"], reply_markup=menu_next)
-        return
-    except:
-        return
 
         
