@@ -31,7 +31,7 @@ async def make_carbon(code):
     output_image.name = "carbon.png"
     return output_image
 
-@app.on_message(filters.command("toe", prefixes=["/", "!",]) & ~BANNED_USERS)
+@app.on_message(filters.command("ping", prefixes=["/", "!",]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
     PING_VID_URL = "https://telegra.ph/file/4be43ed2aa6872337e9a8.mp4"
