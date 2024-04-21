@@ -1,3 +1,4 @@
+import random
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from LUCKYMUSIC import app
@@ -57,8 +58,8 @@ async def start(_, msg):
  
     reply_markup = InlineKeyboardMarkup(buttons)
     
-    await msg.reply_photo(
-        photo="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg",
+    await msg.reply_video(
+          random.choice(LUCKY_VID),
         caption=start_txt,
         reply_markup=reply_markup
     )
