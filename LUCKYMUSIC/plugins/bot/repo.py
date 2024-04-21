@@ -36,8 +36,9 @@ start_txt = """**
 
 
 
-@app.on_message(filters.command("repo"))
-async def start(_, msg):
+@app.on_message(filters.command("repo", prefixes=["/", "!",]) & ~BANNED_USERS)
+@language
+async def repo_com(client, message: Message, _):
     buttons = [
      
             [ 
