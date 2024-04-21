@@ -40,7 +40,7 @@ start_txt = """**
 
   buttons = [
      
-             
+            [
             InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙᴇs✪", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
      
