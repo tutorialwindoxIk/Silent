@@ -1,5 +1,4 @@
 import random
-from LUCKYMUSIC import app
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from LUCKYMUSIC import app
