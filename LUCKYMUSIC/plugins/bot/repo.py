@@ -3,7 +3,6 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from LUCKYMUSIC import app
 from config import BOT_USERNAME, BANNED_USERS
-from LUCKYMUSIC.utils.decorators.language import language
 
 LUCKY_VID = [
     "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
@@ -38,8 +37,7 @@ start_txt = """**
 
 
 @app.on_message(filters.command("repo", prefixes=["/", "!",]) & ~BANNED_USERS)
-@language
-async def repo_com(client, message: Message, _):
+
     buttons = [
      
             [ 
