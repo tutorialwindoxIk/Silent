@@ -1,9 +1,10 @@
 import random
+from LUCKYMUSIC import app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from LUCKYMUSIC import app
-from config import BOT_USERNAME
-from config import BANNED_USERS
+from config import BOT_USERNAME, BANNED_USERS
+from LUCKYMUSIC.utils.decorators.language import language
 
 LUCKY_VID = [
     "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
