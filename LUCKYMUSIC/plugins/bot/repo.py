@@ -1,5 +1,6 @@
 import random
 from pyrogram import filters
+from LUCKYMUSIC.utils.decorators.language import language
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from LUCKYMUSIC import app
 from config import BOT_USERNAME, BANNED_USERS
@@ -37,6 +38,7 @@ start_txt = """**
 
 
 @app.on_message(filters.command("ping", prefixes=["/", "!",]) & ~BANNED_USERS)
+@language
 async def start(_, msg):
     buttons = [
      
