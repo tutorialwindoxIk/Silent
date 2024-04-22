@@ -1,9 +1,8 @@
 import random
 from pyrogram import filters
-from LUCKYMUSIC.utils.decorators.language import language
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from LUCKYMUSIC import app
-from config import BOT_USERNAME, BANNED_USERS
+from config import BOT_USERNAME
 
 LUCKY_VID = [
     "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
@@ -37,8 +36,7 @@ start_txt = """**
 
 
 
-@app.on_message(filters.command("ping", prefixes=["/", "!",]) & ~BANNED_USERS)
-@language
+@app.on_message(filters.command("repo"))
 async def start(_, msg):
     buttons = [
      
