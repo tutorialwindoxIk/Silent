@@ -4,7 +4,7 @@ import random
 import requests
 from LUCKYMUSIC import app 
 
-SUPPORT_CHAT = "BWANDARLOK"
+SUPPORT_CHAT = "LUCKYXSUPPORT"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
