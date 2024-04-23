@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 MESSAGE = f"""**💗  ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴs ᴛᴏ ᴀʟʟ 💗
 
-[ᴀɴɴɪᴇ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ](https://t.me/Annie_X_music_bot)   
+[ʟᴜᴄᴋʏ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ](https://t.me/LuckyXMusic_Bot)   
                     
                        [ᴜsᴇʀs](tg://settings/) 
 
@@ -18,7 +18,7 @@ MESSAGE = f"""**💗  ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴs ᴛᴏ ᴀʟʟ 💗
 
 ❥ ʟᴇᴛ's ᴋᴇᴇᴘ ᴛʜᴇ ᴄᴇʟᴇʙʀᴀᴛɪᴏɴ ɢᴏɪɴɢ ᴀs ᴡᴇ ʟᴏᴏᴋ ғᴏʀᴡᴀʀᴅ ᴛᴏ ᴍᴀɴʏ ᴍᴏʀᴇ ᴇxᴄɪᴛɪɴɢ ɪɴᴛᴇʀᴀᴄᴛɪᴏɴs ᴡɪᴛʜ ᴀɴɴɪᴇ ʀᴏʙᴏᴛ ɪɴ ᴛʜᴇ ғᴜᴛᴜʀᴇ ! 🦋
 
-      [🌷 sᴜᴘᴘᴏʀᴛ 🌷](https://t.me/+143OoX4JfpQ3OGNl)      [🎟 sᴛᴀᴛs 🎟](https://t.me/CDX_WORLD/14) """
+      [🌷 sᴜᴘᴘᴏʀᴛ 🌷](https://t.me/LuckyXSupport)      [🎟 sᴛᴀᴛs 🎟](https://t.me/LuckyXUpdate) """
 
 BUTTON = InlineKeyboardMarkup(
     [
@@ -29,7 +29,7 @@ BUTTON = InlineKeyboardMarkup(
 )
 
 
-CELEBRATION_VID_URL = "https://github.com/doraemon890/ANNIE-X-MUSIC-/assets/155803358/4671acf4-d356-4698-baad-43ef62438437"
+CELEBRATION_VID_URL = "https://github.com/LuckyRaja0/LuckyXMusic/assets/155803358/4671acf4-d356-4698-baad-43ef62438437"
 
 
 async def send_message_to_chats():
