@@ -44,7 +44,7 @@ async def ping_com(client, message: Message, _):
     await asyncio.sleep(1)
     await response.edit_caption("**🥀ʟᴜᴄᴋʏ ɪs ᴀɴᴀʟʏsɪɴɢ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs..**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**🥀ʟᴜᴄᴋʏ ᴜᴘɢʀᴀᴅᴇᴅ ᴛʜᴇ ᴊᴀʀᴠɪs ᴄᴏʀᴇ...**")
+    await response.edit_caption("**🥀ʟᴜᴄᴋʏ ᴜᴘɢʀᴀᴅᴇᴅ ᴛʜᴇ ʟᴜᴄᴋʏ ᴄᴏʀᴇ...**")
     await asyncio.sleep(1.5)
     await response.edit_caption("**🥀ʟᴜᴄᴋʏ ᴜᴘᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ....**")
     await asyncio.sleep(1.5)
