@@ -18,7 +18,7 @@ LUCKY_VID = [
 ]
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя jคяv¡ร яєρσѕ ✪
+✪ ωεℓ¢σмє ƒσя  яєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -45,13 +45,13 @@ async def start(_, msg):
             ],
      
             [
-             InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/LuckyRaja0"),
+             InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/The_LuckyX"),
              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/LUCKYXSUPPORT"),
              ],
      
              [
              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/CHATTING_2024"),          
-             InlineKeyboardButton("︎ᴍᴜsɪᴄ", url=f"https://github.com/doraemon890/Lucky-X-MUSIC"),
+             InlineKeyboardButton("︎ɢɪᴛʜᴜʙ", url=f"https://github.com/The_LuckyX"),
              ],
      
               ]
